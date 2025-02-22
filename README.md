@@ -1,2 +1,2 @@
 # python
-My first repository - intro python
+Nate's first repository - intro python
