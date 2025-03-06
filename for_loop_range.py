@@ -1,8 +1,8 @@
 # FILE NAME - for_loop_range.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nate Cancel
+# DATE: 3-6-2025
+# BRIEF DESCRIPTION: output the numbers from 0 through 22 (inclusive).
 
 
 
@@ -18,7 +18,10 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+number = '0, 22'
 
+for x in number:
+  print(x)
 
 
 
