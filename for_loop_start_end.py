@@ -25,10 +25,11 @@ def user_range():
     start = int(input('Starting point: '))
     end = int(input('Ending point: '))
 
-    for x in range(start, end):
-        print(x, end='')
+    for x in range(start, end + 1):
+        print(x, ' ', end='')
 
 main()
+
 
 
 
