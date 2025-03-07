@@ -26,9 +26,9 @@ def get_doggo_names():
         if name != 'DONE': 
            \n names.append(name)    
     return names
-
+    
+print()
 def output_names(doggo_names):
-    print()
     for name in doggo_names:
         print(f'{name} is awesome.')
 
