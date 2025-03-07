@@ -24,13 +24,11 @@ def get_doggo_names():
     while name != 'DONE':
         name = input('Name of doggo: ')
         if name != 'DONE':
-            print(f'{name} is awesome.')
     
     return names
-print(f'{name} is awesome.')
 
 def output_names(doggo_names):
-    print()
+    print('f{name} is awesome.')
 
 main()
     
