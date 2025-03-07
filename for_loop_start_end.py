@@ -1,8 +1,8 @@
 # FILE NAME - for_loop_start_end.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nate Cancel
+# DATE: 3-6-2025
+# BRIEF DESCRIPTION:  create show loop generator
 
 
 
@@ -18,10 +18,17 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    user_range()
 
+def user_range():
+    start = int(input('Starting point: '))
+    end = int(input('Ending point: '))
 
+    for x in range(start, end):
+        print(x, end='')
 
-
+main()
 
 
 
