@@ -1,8 +1,8 @@
 # FILE NAME - for_loop_list.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nate Cancel
+# DATE: 3-6-2025
+# BRIEF DESCRIPTION:  make list of dogs 
 
 
 
