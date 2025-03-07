@@ -1,9 +1,9 @@
 # FILE NAME - for_loop_start_end_increment.py
 
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nate Cancel
+# DATE: 3-6- 2025
+# BRIEF DESCRIPTION:  start end increment
 
 
 
@@ -13,18 +13,20 @@
 # 4. The Sample Output has been included in this code for your convenience
 
 
-
-
-
-
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    user_range()
 
+def user_range():
+    start = int(input('Starting point: '))
+    end = int(input('Ending point: '))
+    increment = int(input('Increment by: '))
 
+    for x in range(start, end, increment):
+        print(x, ' ', end='')
 
-
-
-
+main()
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
