@@ -27,6 +27,7 @@ def get_doggo_names():
             print(f'{name} is awesome.')
     
     return names
+print(f'{name} is awesome.')
 
 def output_names(doggo_names):
     print()
