@@ -11,6 +11,7 @@
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 
+########## ENTER YER CODE BELOW THIS LINE ##########
 
 
 def main():
@@ -23,28 +24,16 @@ def get_doggo_names():
     while name != 'DONE':
         name = input('Name of doggo: ')
         if name != 'DONE':
-            names.append(name)
+            print(f'{name} is awesome.')
     
     return names
 
 def output_names(doggo_names):
-
-    ########## ENTER YER CODE BELOW THIS LINE ##########
-    
     print()
 
-    
-
-
-
-
-
-
-    ########### END YER CODE ABOVE THIS LINE ###########
-
 main()
-
-
+    
+  ########### END YER CODE ABOVE THIS LINE ##########
 
 ########################################
 #          SAMPLE OUTPUT
