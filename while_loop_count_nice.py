@@ -1,8 +1,8 @@
 # FILE NAME - while_loop_count_nice.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nate Cancel
+# DATE: 3-7-2025
+# BRIEF DESCRIPTION:  output range in a certain way
 
 
 
@@ -18,13 +18,21 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def print_to_nine():
+    numbers = []  
+    start = 0
+    while start <= 9:
+        numbers.append(start)  
+        start += 1
+    for num in numbers:
+        if num != 9:
+            print(num, end=", ")
+        else:
+            print(num, end="")
+    return numbers
 
-
-
-
-
-
-
+print_to_nine()
+  
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -54,7 +62,7 @@ may impede your understanding. Please rate how well you understand the concepts 
 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
-[ ] I pretty much get it.
+[X] I pretty much get it.
 [ ] I'm solid. Totally got it.
 
 '''
