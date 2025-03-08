@@ -1,7 +1,7 @@
 # FILE NAME - while_loop_count.py
 
-# NAME: 
-# DATE: 
+# NAME: Nate Cancel 
+# DATE: 3-7-2025
 # BRIEF DESCRIPTION:  
 
 
@@ -18,13 +18,8 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
-
-
-
-
-
-
+for x in range(0, 10):
+    print(x)
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
@@ -65,6 +60,6 @@ may impede your understanding. Please rate how well you understand the concepts 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
 [ ] I pretty much get it.
-[ ] I'm solid. Totally got it.
+[X] I'm solid. Totally got it.
 
 '''
