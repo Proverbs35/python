@@ -1,8 +1,8 @@
 # FILE NAME: cyber_suite_menu.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nate Cancel 
+# DATE: 2-7-2025
+# BRIEF DESCRIPTION:  Make menu
 
 
 
@@ -16,6 +16,20 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+print('WELCOME TO THE cyber_suite') 
+print()  
+print('Please choose from the following menu:\n'
+      '  1. Password manager\n'
+      '  2. Examine logs\n'
+      '  3. Scrape website\n'
+      '  4. Hash\n'
+      '  5. Encrypt\n'
+      '  6. Encode\n'
+      '  7. Steganography\n'
+      '  8. EXIT\n')  
+
+option = int(input('Enter selection: '))
+print(f'You selected option {option}.')
 
 
 
