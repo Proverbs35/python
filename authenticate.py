@@ -1,7 +1,7 @@
 # FILE NAME - authenticate.py
 
-# NAME: 
-# DATE: 
+# NAME: Nate Cancel
+# DATE: 3-12-2025
 # BRIEF DESCRIPTION:  
 
 
@@ -18,12 +18,19 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    password = "tooManySecrets"
+    guess = ""
 
-
-
-
-
-
+    while guess != password:  
+        guess = input('Enter password: ') 
+        print()
+        
+        if guess != password:
+            print('Password does not match.')
+    
+    print('Access granted.') 
+main()
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
