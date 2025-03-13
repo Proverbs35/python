@@ -1,8 +1,8 @@
 # FILE NAME - rectangle_redux.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nate Cancel
+# DATE: 3-12-2025
+# BRIEF DESCRIPTION:  make a rectangle
 
 
 
@@ -13,19 +13,19 @@
 
 
 
-
-
-
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    height = int(input('How tall would you like the rectangle? '))
 
+    print('*****')
 
+    for _ in range(height):
+        print('*   *')  
 
+    print('*****')
 
-
-
-
-
+main()
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -91,7 +91,7 @@ may impede your understanding. Please rate how well you understand the concepts 
 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
-[ ] I pretty much get it.
+[X] I pretty much get it.
 [ ] I'm solid. Totally got it.
 
 '''
