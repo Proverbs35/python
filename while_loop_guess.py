@@ -1,8 +1,8 @@
 # FILE NAME - while_loop_guess.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nate Cancel
+# DATE: 3-12-2025
+# BRIEF DESCRIPTION: 
 
 
 
@@ -12,19 +12,20 @@
 # 4. The Sample Output has been included in this code for your convenience
 
 
-
-
-
-
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    secret_number = 33 
+    tries = 0
+    guess = 0
+    
+    while guess != secret_number:
+        guess = int(input("Guess a number: "))
+        tries += 1 
 
-
-
-
-
-
-
+    print(f"You guessed in {tries} tries.")
+    
+main()
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
