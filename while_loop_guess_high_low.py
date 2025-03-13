@@ -1,8 +1,8 @@
 # FILE NAME - while_loop_guess_high_low.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Nate Cancel
+# DATE: 3-12-2025
+# BRIEF DESCRIPTION: guess that number
 
 
 
@@ -19,12 +19,23 @@ SECRET_NUMBER = 33
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    secret_number = 33
+    tries = 0
+    guess = 0
 
+    while guess != secret_number:
+        guess = int(input("Guess a number: "))
+        tries += 1
+        
+        if guess < secret_number:
+            print('Your guess is too low.')
+        elif guess > secret_number:
+            print('Your guess is too high.')
 
+    print(f"You guessed it in {tries} tries.")
 
-
-
-
+main()
 
 
 
@@ -111,6 +122,6 @@ may impede your understanding. Please rate how well you understand the concepts 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
 [ ] I pretty much get it.
-[ ] I'm solid. Totally got it.
+[X] I'm solid. Totally got it.
 
 '''
