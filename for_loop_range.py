@@ -18,11 +18,8 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-for x in range(10, 20):
+for x in range(0, 23):
     print(x)
-
-
-
 
 
 
