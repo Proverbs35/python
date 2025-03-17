@@ -18,11 +18,8 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-number = '0, 22'
-
-for x in number:
-  print(x)
-
+for x in range(10, 20):
+    print(x)
 
 
 
