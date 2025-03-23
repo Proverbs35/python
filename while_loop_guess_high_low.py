@@ -33,7 +33,7 @@ def main():
         elif guess > secret_number:
             print('Your guess is too high.\n')
 
-    print(f'\nYou guessed it in {tries} tries.')
+    print(f'\nYou guessed in {tries} tries.')
 
 main()
 
