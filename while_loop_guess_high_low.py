@@ -29,11 +29,11 @@ def main():
         tries += 1
         
         if guess < secret_number:
-            print('Your guess is too low.')
+            print('Your guess is too low.\n')
         elif guess > secret_number:
-            print('Your guess is too high.')
+            print('Your guess is too high.\n')
 
-    print(f"You guessed it in {tries} tries.")
+    print(f'\nYou guessed it in {tries} tries.')
 
 main()
 
